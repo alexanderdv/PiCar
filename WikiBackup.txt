@@ -8,6 +8,10 @@ Het bouwen van een "slimme" auto, gecontroleerd door een Raspberry Pi, die auton
 
 Nadat de basis besturing volledig in orde is, zullen we de Raspberry Pi "slim" maken aan de hand van enkele sensoren (licht, ultra-sonic, geluid, ...) en uitrusten met een camera voor live-streaming capabilities.
 
+Ons eerste idee was een RC auto uit te breiden met een Raspberry Pi en enkele sensoren om zo deze "slimme" auto te kunnen besturen en gebruiken. Omdat we als groep maar over weinig elektronica-kennis beschikken hebben we ervoor geopteerd om zoveel mogelijk Lego Mindstorms NXT sensoren en motoren te gebruiken. Via de BrickPi kunnen we deze dan ook aansluiten op de Raspberry Pi en ze via python libraries aanspreken. Zo kunnen we ons voornamelijk concentreren op het scripting-werk.
+
+Indien er nog tijd over is, kunnen we de PiCar nog steeds verder uitbreiden met sensoren of modules die door Lego Mindstorms niet ondersteund worden.
+
 == Planning ==
 
 *Update 12/02:
@@ -16,10 +20,11 @@ Nadat de basis besturing volledig in orde is, zullen we de Raspberry Pi "slim" m
 == Ideeën ==
 
 *PiCar bestuurbaar via ssh, web en game-controller
+** voorlopig enkel en alleen indien de client zich in hetzelfde Wifi-netwerk bevindt als de PiCar
 *PiCar zijn locatie kunnen opvragen in het Wifi-netwerk (Wifi-triangulation?)
 *PiCar kan via een camera-module live beelden streamen naar een website voor remote control
 ** de camera kan hierbij remote geroteerd worden adhv van een motor
-*PiCar kan autonoom obstakels ontwijken
+*PiCar kan autonoom rijden en obstakels ontwijken
 *PiCar kan autonoom bepaalde trajecten volgen (line-tracking)
 
 == Logboek ==
@@ -59,11 +64,16 @@ Nadat de basis besturing volledig in orde is, zullen we de Raspberry Pi "slim" m
 ** Een 10-tal NXT motoren gevonden, alsook 4 types NXT sensoren met van elk type enkele exemplaren (licht, geluid, ultrasonic, touch)
 **BrickPi besteld op volgende website: http://www.generationrobots.com/en/401507-brickpi-basic-power-raspebrry-pi-interface-for-lego-mindstorms.html
 ** lijst met nodige onderdelen doorgegeven aan docenten
-
+** Lego prototype is klaar om mee te experimenteren
 
 ====12 feb ====
  {| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;"  
 |Alexander
-| Github repository opzetten
+| Github repository opzetten, doorgronden van BrickPi python library
 | Done
 |-
+|}
+
+== Bronnen ==
+* http://www.raspberrypi.org/
+* http://www.dexterindustries.com/BrickPi/
