@@ -1,0 +1,69 @@
+== Leden ==
+
+Alexander De Vlaminck, Hans Verbeylen en Laurens Sturm.
+
+== Beschrijving ==
+
+Het bouwen van een "slimme" auto, gecontroleerd door een Raspberry Pi, die autonoom kan rijden of bestuurd wordt door een persoon. Deze besturing kan gaan van rechtstreeks commando's ingeven op de Raspberry Pi via ssh, een game-controller of een website.
+
+Nadat de basis besturing volledig in orde is, zullen we de Raspberry Pi "slim" maken aan de hand van enkele sensoren (licht, ultra-sonic, geluid, ...) en uitrusten met een camera voor live-streaming capabilities.
+
+== Planning ==
+
+*Update 12/02:
+** omdat we momenteel nog geen hardware ter beschikking hebben, kunnen we niet veel doen buiten het zoeken naar voorbeelden, de BrickPi python library doorgronden, en het opdoen van ideeën voor verdere uitbreidingen
+
+== Ideeën ==
+
+*PiCar bestuurbaar via ssh, web en game-controller
+*PiCar zijn locatie kunnen opvragen in het Wifi-netwerk (Wifi-triangulation?)
+*PiCar kan via een camera-module live beelden streamen naar een website voor remote control
+** de camera kan hierbij remote geroteerd worden adhv van een motor
+*PiCar kan autonoom obstakels ontwijken
+*PiCar kan autonoom bepaalde trajecten volgen (line-tracking)
+
+== Logboek ==
+====10 feb ====
+ {| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;"  
+|Iedereen
+| Onderwerp zoeken
+| Done
+|-
+|Alexander
+| Opzoekwerk naar mogelijkheid om Lego Mindstorms te besturen via Raspberry Pi
+| Done
+|-
+|}
+
+
+====11 feb ====
+ {| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;"  
+|Alexander
+| Wiki opzetten, experimenteren met Raspberry Pi, inventariseren van enorme hoop Lego, prototype Mindstorms PiCar ontwerpen en bouwen, lijst met nodige onderdelen opstellen
+| Done
+|-
+|Hans
+| Wiki opzetten
+| Done
+|-
+|Laurens
+| Experimenteren met Raspberry Pi, inventariseren van enorme hoop Lego, , lijst met nodige onderdelen opstellen
+| Done
+|-
+|}
+
+*Problemen:
+** Raspberry Pi niet werkende gekregen, volgens ons het gevolg van een hardware-malfunction aangezien onze Raspbian sd wel werkte in een andere Pi.
+
+*Resultaten:
+** Een 10-tal NXT motoren gevonden, alsook 4 types NXT sensoren met van elk type enkele exemplaren (licht, geluid, ultrasonic, touch)
+**BrickPi besteld op volgende website: http://www.generationrobots.com/en/401507-brickpi-basic-power-raspebrry-pi-interface-for-lego-mindstorms.html
+** lijst met nodige onderdelen doorgegeven aan docenten
+
+
+====12 feb ====
+ {| border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;"  
+|Alexander
+| Github repository opzetten
+| Done
+|-
